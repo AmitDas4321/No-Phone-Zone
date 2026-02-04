@@ -72,7 +72,7 @@ pip install opencv-python ultralytics pygame
 ## ▶️ Run the Project
 
 ```bash
-python no_phone_zone.py
+python main.py
 ```
 
 Press **Q** to stop and close the camera window.
