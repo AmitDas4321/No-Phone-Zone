@@ -21,7 +21,7 @@ def center_window(root, width=700, height=380):
 
 def start_detector(root):
     if not os.path.exists(AUDIO_FILE):
-        messagebox.showerror("Error", f"ERROR: '{AUDIO_FILE}' file nahi mili!")
+        messagebox.showerror("Error", f"ERROR: '{AUDIO_FILE}' file not found!")
         return
 
     pygame.mixer.init()
